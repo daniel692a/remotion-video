@@ -1,5 +1,5 @@
 import {useVideoConfig} from 'remotion';
-import {COLOR_1, COLOR_2} from './config';
+import {COLOR_3, COLOR_4} from './config';
 
 export const Arc: React.FC<{
 	progress: number;
@@ -25,8 +25,8 @@ export const Arc: React.FC<{
 		>
 			<defs>
 				<linearGradient id="gradient" x1="0%" y1="0%" x2="0%" y2="100%">
-					<stop offset="0%" stopColor={COLOR_1} />
-					<stop offset="100%" stopColor={COLOR_2} />
+					<stop offset="0%" stopColor={COLOR_3} />
+					<stop offset="100%" stopColor={COLOR_4} />
 				</linearGradient>
 			</defs>
 			<ellipse

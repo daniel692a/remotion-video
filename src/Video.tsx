@@ -10,13 +10,13 @@ export const RemotionVideo: React.FC = () => {
 			<Composition
 				id="HelloWorld"
 				component={HelloWorld}
-				durationInFrames={150}
-				fps={30}
+				durationInFrames={1000}
+				fps={60}
 				width={1920}
 				height={1080}
 				defaultProps={{
-					titleText: 'Welcome to Remotion',
-					titleColor: 'black',
+					titleText: 'Welcome to DSC UPMH',
+					titleColor: '#202124',
 				}}
 			/>
 			<Composition

@@ -8,23 +8,15 @@ export const Subtitle: React.FC = () => {
 		<div
 			style={{
 				fontFamily: 'Helvetica, Arial',
-				fontSize: 40,
+				fontSize: 50,
 				textAlign: 'center',
 				position: 'absolute',
 				bottom: 140,
 				width: '100%',
-				opacity,
+				color: '#202124',
 			}}
 		>
-			Edit{' '}
-			<code
-				style={{
-					color: COLOR_1,
-				}}
-			>
-				src/Video.tsx
-			</code>{' '}
-			and save to reload.
+			We start in a few moments
 		</div>
 	);
 };

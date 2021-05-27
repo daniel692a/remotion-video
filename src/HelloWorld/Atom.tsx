@@ -1,5 +1,5 @@
 import {useVideoConfig} from 'remotion';
-import {COLOR_1, COLOR_2} from './config';
+import {COLOR_3, COLOR_4} from './config';
 
 export const Atom: React.FC<{
 	scale: number;
@@ -15,8 +15,8 @@ export const Atom: React.FC<{
 		>
 			<defs>
 				<linearGradient id="gradient2" x1="0%" y1="0%" x2="100%" y2="0%">
-					<stop offset="0%" stopColor={COLOR_1} />
-					<stop offset="100%" stopColor={COLOR_2} />
+					<stop offset="0%" stopColor={COLOR_3} />
+					<stop offset="100%" stopColor={COLOR_4} />
 				</linearGradient>
 			</defs>
 			<circle
